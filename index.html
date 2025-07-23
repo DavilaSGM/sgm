@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Foro Blockchain Querétaro 2025</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Inicio</a>
+      <a href="#registro">Registro</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Foro Blockchain 2025</h1>
+    <p>14 de noviembre · Querétaro, México</p>
+    <a href="#registro" class="btn">Regístrate ahora</a>
+  </section>
+
+  <section id="registro" class="form-section">
+    <h2>Registro al evento</h2>
+    <form name="registro-evento" method="POST" data-netlify="true">
+      <input type="text" name="nombre" placeholder="Nombre completo" required />
+      <input type="email" name="correo" placeholder="Correo electrónico" required />
+      <input type="text" name="empresa" placeholder="Empresa" />
+      <input type="text" name="cargo" placeholder="Cargo" />
+      <button type="submit">Enviar registro</button>
+    </form>
+    <p class="success-message" style="display:none;">¡Gracias por registrarte!</p>
+  </section>
+
+  <footer id="contacto">
+    <p>Foro Blockchain © 2025 — Querétaro</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
